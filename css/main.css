@@ -1,0 +1,105 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   .jumbotron img{
+    margin: 0 auto;
+
+  }
+  .jumbotron {
+   text-align: center;
+   background-color:#5b7fcb;
+   margin:10px;
+   padding:0px;
+   color: #fff;
+ }
+
+
+ html, body{
+  font-family: "Arial"
+  font-size:14px;
+  min-height: 100vh;
+  background-repeat:repeat-x;
+  background-position:left bottom;
+  color: #000;
+  background-color:#ffffff;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#5b7fcb);
+  background-image:-moz-linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
+  background-image:linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
+  background-image:-webkit-linear-gradient(top, #ffffff 66%, #5b7fcb 85%,#042e68 100%);
+  background-image:-o-linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
+  background-image:-ms-linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
+  background-image:-webkit-gradient(linear, right top, right bottom, color-stop(54%,#ffffff), color-stop(85%,#5b7fcb),color-stop(100%,#042e68));
+}
+
+body{
+  padding:0px;
+}
+
+.contact-info{
+  padding-top: 20px;
+  font-size: 14px !important;
+}
+
+.contact-info-tel{
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+footer {
+  color: #fff;
+  font-size: 11px;
+}
+
+
+#myCarousel{
+  width: 480px;
+}
+
+.css3gradient{
+ background-color:#5b7fcb;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#042e68, endColorstr=#5b7fcb);
+ background-image:-moz-linear-gradient(left, #042e68 0%, #5b7fcb 25%,#5b7fcb 50%,#042e68 100%);
+ background-image:linear-gradient(left, #042e68 0%, #5b7fcb 25%,#5b7fcb 50%,#042e68 100%);
+ background-image:-webkit-linear-gradient(left, #042e68 0%, #5b7fcb 25%,#5b7fcb 50%,#042e68 100%);
+ background-image:-o-linear-gradient(left, #042e68 0%, #5b7fcb 25%,#5b7fcb 50%,#042e68 100%);
+ background-image:-ms-linear-gradient(left, #042e68 0%, #5b7fcb 25%,#5b7fcb 50%,#042e68 100%);
+ background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#042e68), color-stop(25%,#5b7fcb),color-stop(50%,#5b7fcb),color-stop(100%,#042e68));
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.last-row{
+  margin-bottom: 95px;
+}
+
+blockquote{
+  border: 0 !important;
+  max-width:700px;
+  font-size:small;
+  font-style: italic;
+}
+
+blockquote small{
+  color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
