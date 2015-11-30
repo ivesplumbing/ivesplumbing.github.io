@@ -83,6 +83,10 @@ blockquote{
   font-style: italic;
 }
 
+blockquote small{
+  color:#000;
+}
+
 .services{
   margin-top:70px
 }
