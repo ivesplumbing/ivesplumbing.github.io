@@ -30,7 +30,7 @@
   background-image:linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
   background-image:-webkit-linear-gradient(top, #ffffff 66%, #5b7fcb 85%,#042e68 100%);
   background-image:-o-linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
-  background-image:-ms-linear-gradient(top, #ffffff 86%, #5b7fcb 85%,#042e68 100%);
+  background-image:-ms-linear-gradient(top, #ffffff 76%, #5b7fcb 93%,#042e68 100%);
   background-image:-webkit-gradient(linear, right top, right bottom, color-stop(54%,#ffffff), color-stop(85%,#5b7fcb),color-stop(100%,#042e68));
 }
 
