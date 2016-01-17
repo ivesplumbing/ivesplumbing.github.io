@@ -91,3 +91,91 @@ blockquote .person{
 .services{
   margin-top:70px
 }
+
+/*nav*/
+
+/*Strip the ul of padding and list styling*/
+nav {
+  display: inline-block;
+width: 100%;
+}
+#menu {
+  width: 100%;
+}
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: relative;
+  display: table;
+width: 100%;
+}
+
+/*Create a horizontal list with spacing*/
+nav li {
+  display:inline-block;
+  float: left;
+  display: table-cell;
+text-align: center;
+width: 16%;
+}
+
+/*Style for menu links*/
+nav li a {
+  display:block;
+  min-width:140px;
+  text-align: center;
+  color: #012b65;
+  text-decoration: none;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  text-decoration: none;
+  color: #fff;
+  background-color: #5B7FCB;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 1000px){
+  /*Make dropdown links appear inline*/
+  nav {
+  display: block;
+  }
+
+  nav ul {
+    position: static;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  nav li {
+    margin-bottom: 1px;
+  background-color: #5B7FCB;
+  }
+  /*Make all menu links full width*/
+  nav ul li, li a {
+  color: #fff !important;
+  line-height: 50px;
+    width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display:block;
+  }
+}
