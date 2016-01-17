@@ -54,7 +54,7 @@ footer {
 }
 
 #myCarousel{
-  width: 480px;
+  max-width: 480px;
 }
 
 .css3gradient{
@@ -91,18 +91,3 @@ blockquote .person{
 .services{
   margin-top:70px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
