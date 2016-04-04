@@ -53,6 +53,10 @@ footer {
   font-size: 11px;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 #myCarousel{
   max-width: 480px;
 }
@@ -213,7 +217,7 @@ a.viewphotos, button.viewphotos {
   nav ul li, li a {
   color: #fff !important;
   line-height: 50px;
-    width: 100%;
+  width: 100%;
   }
 
   #menu a {
