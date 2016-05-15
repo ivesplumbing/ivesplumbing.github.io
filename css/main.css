@@ -106,7 +106,7 @@ blockquote .person{
 /*Strip the ul of padding and list styling*/
 nav {
   display: inline-block;
-width: 100%;
+  width: 100%;
 }
 #menu {
   width: 100%;
@@ -197,12 +197,19 @@ a.viewphotos, button.viewphotos {
     min-width: 300px;   
 }
 
+#menu li{
+  text-align: center;
+}
+
 /*Responsive Styles*/
 
-@media screen and (max-width : 1000px){
+@media screen and (max-width : 900px){
   /*Make dropdown links appear inline*/
   nav {
   display: block;
+  width: 102%;
+  position: relative;
+  left: -1%
   }
 
   nav ul {
@@ -233,3 +240,15 @@ a.viewphotos, button.viewphotos {
     display:block;
   }
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1000px) { 
+  nav{
+    margin-bottom: 30px;
+  }
+
+  footer{
+    margin-top: 100px;
+  }
+}
+
